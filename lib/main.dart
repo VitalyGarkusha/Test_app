@@ -21,7 +21,7 @@ class TreeViewScreen extends StatefulWidget {
 
 class _TreeViewScreenState extends State<TreeViewScreen> {
   final List<TreeItem> nodes = [
-    TreeItem(title: 'Root Item', parent: null), // Корневой элемент
+    TreeItem(title: 'Parent', parent: null), // Корневой элемент
   ];
 
   void addNode(TreeItem parent) {
